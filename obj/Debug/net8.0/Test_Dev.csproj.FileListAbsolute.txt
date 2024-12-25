@@ -141,3 +141,4 @@ D:\Dev\Training\Test_Dev\obj\Debug\net8.0\refint\Test_Dev.dll
 D:\Dev\Training\Test_Dev\obj\Debug\net8.0\Test_Dev.pdb
 D:\Dev\Training\Test_Dev\obj\Debug\net8.0\Test_Dev.genruntimeconfig.cache
 D:\Dev\Training\Test_Dev\obj\Debug\net8.0\ref\Test_Dev.dll
+D:\Dev\Training\Test_Dev\obj\Debug\net8.0\Test_Dev.sourcelink.json

@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Test_Dev.Data;
+using Test_Dev.Interface;
+using Test_Dev.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-
+//Register Service
+builder.Services.AddTransient<IEmployee, EmployeeService>();
 
 //Connect Database
 builder.Services.AddDbContext<DataContext>(option => {
